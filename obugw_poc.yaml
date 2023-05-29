@@ -3,7 +3,6 @@ info:
   title: Spoofed obugw API POC
   description: |
   This could look like a real API, but it's not.  It's a proof of concept for a spoofed API. When a real admin try to authorize and send login details, the attacker can capture the credentials and use them to login to the real API.  The attacker can then use the real API to authenticate in the production environment.
-
   version: hacked
 basePath: /ddobugw/
 produces:
